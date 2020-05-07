@@ -56,5 +56,6 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
+  <script type="text/javascript" src="/js/love.js"></script>
 </body>
 </html>
