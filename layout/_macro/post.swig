@@ -136,7 +136,7 @@
                 <i class="far fa-file-word"></i>
               </span>
               {%- if theme.symbols_count_time.item_text_post %}
-                <span class="post-meta-item-text">{{ __('symbols_count_time.count') + __('symbol.colon') }}</span>
+                <span class="post-meta-item-text">{{ __('symbols_count_time.count') }}</span>
               {%- endif %}
               <span>{{ symbolsCount(post) }}</span>
             </span>
@@ -148,7 +148,7 @@
                 <i class="far fa-clock"></i>
               </span>
               {%- if theme.symbols_count_time.item_text_post %}
-                <span class="post-meta-item-text">{{ __('symbols_count_time.time') }} &asymp;</span>
+                <span class="post-meta-item-text">{{ __('symbols_count_time.time') }} </span>
               {%- endif %}
               <span>{{ symbolsTime(post, config.symbols_count_time.awl, config.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}</span>
             </span>
